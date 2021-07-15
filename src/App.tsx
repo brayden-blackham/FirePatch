@@ -16,7 +16,7 @@ if (!firebase.apps.length) {
     storageBucket: "firepatchid.appspot.com",
     messagingSenderId: "1083445804642",
     appId: "1:1083445804642:web:ad1166c110bfcabdaa1b3b",
-    measurementId: "G-M52M2MDHYX"
+    measurementId: "G-M52M2MDHYX",
   });
 } else {
   firebase.app(); // if already initialized, use that one
